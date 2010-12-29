@@ -15,4 +15,10 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    hevelius_server.cpp \
+    hevelius_thread.cpp
+
+HEADERS += \
+    hevelius_server.h \
+    hevelius_thread.h
